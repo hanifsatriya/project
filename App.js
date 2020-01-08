@@ -43,28 +43,26 @@ export default class App extends React.Component {
           <Right />
         </Header>
           <View style={{flex:1}}> 
-            <View style={{flex:1 , marginTop: 10}}>
-              <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 1</Text></Button>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 2</Text></Button>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 3</Text></Button>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 4</Text></Button>  
+            <View style={{flex:1.25 , marginTop: 10}}>
+              <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', padding: 10}}>
+                <Button light style={{flex:1, height:90, margin: 5, justifyContent: 'center', borderRadius: 25}}><Text>Coba 1</Text></Button>
+                <Button light style={{flex:1, height:90, margin: 5, justifyContent: 'center', borderRadius: 25}}><Text>Coba 2</Text></Button>
+                <Button light style={{flex:1, height:90, margin: 5, justifyContent: 'center', borderRadius: 25}}><Text>Coba 3</Text></Button>
               </View>
-              <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
-              <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 1</Text></Button>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 2</Text></Button>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 3</Text></Button>
-                <Button light style={{flex:1, height:90, margin: 5}}><Text>Coba 4</Text></Button>  
+              <View style={{flex: 1, flexDirection: 'row', alignItems: 'center', justifyContent: 'center', padding: 10}}>
+                <Button light style={{flex:1, height:90, margin: 5, justifyContent: 'center', borderRadius: 25}}><Icon name='home' /></Button>
+                <Button light style={{flex:1, height:90, margin: 5, justifyContent: 'center', borderRadius: 25}}><Text>Coba 2</Text></Button>
+                <Button light style={{flex:1, height:90, margin: 5, justifyContent: 'center', borderRadius: 25}}><Text>Coba 3</Text></Button> 
               </View>
             </View>
-            <View style={{flex:1 , backgroundColor: 'white'}}>
+            <View style={{flex:0.5, padding: 10}}>
               <ScrollView horizontal={true}>
-                  <Image source={require('./image/img2.jpg')} style={{width:300, height: 200, marginTop: 5, marginRight:7}}></Image>
-                  <Image source={require('./image/img1.jpeg')} style={{width:300, height: 200, marginTop: 5, marginRight:7}}></Image>
-                  <Image source={require('./image/Screenshot_1.png')} style={{width:300, height: 200, marginTop: 5, marginRight:7}}></Image>
+                  <Image source={require('./image/img2.jpg')} style={{width:200, height: 100, marginRight:7, marginBottom:3}}></Image>
+                  <Image source={require('./image/img1.jpeg')} style={{width:200, height: 100, marginRight:7, marginBottom:3}}></Image>
+                  <Image source={require('./image/Screenshot_1.png')} style={{width:200, height: 100, marginRight:7, marginBottom:3}}></Image>
               </ScrollView>
             </View>
-            <View style={{flex:1 , backgroundColor: 'grey'}}></View>
+            <View style={{flex:1.25}}></View>
           </View>
         <Footer style={{height: 70}}>
           <FooterTab style={{backgroundColor: '#f5f3f0'}}>
